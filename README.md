@@ -21,8 +21,8 @@ Ensure you have the following software installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Tan3103/nFactorial_Incubator.git
+   cd nFactorial_Incubator
    ```
 
 2. **Build the project using Maven:**
@@ -40,40 +40,6 @@ Ensure you have the following software installed on your machine:
 4. **Access the application:**
 
    Open your web browser and navigate to `http://localhost:8080`.
-
-## Project Structure
-
-The project follows the standard Maven directory structure:
-
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── example/
-│   │           └── demo/
-│   │               ├── DemoApplication.java
-│   │               ├── controller/
-│   │               │   └── HomeController.java
-│   │               ├── model/
-│   │               │   └── User.java
-│   │               └── repository/
-│   │                   └── UserRepository.java
-│   ├── resources/
-│   │   ├── static/
-│   │   ├── templates/
-│   │   │   └── index.html
-│   │   ├── application.properties
-│   │   └── data.sql
-└── test/
-    └── java/
-        └── com/
-            └── example/
-                └── demo/
-                    └── DemoApplicationTests.java
-```
-
-## Design and Development Process
 
 ### Design
 
@@ -106,7 +72,7 @@ The application follows the MVC (Model-View-Controller) architectural pattern, w
    - The project uses a basic security setup for simplicity. For a production environment, a more robust security mechanism should be implemented.
 
 2. **Database Selection:**
-   - An H2 in-memory database is used for development and testing purposes. For production, consider using a more scalable and persistent database such as MySQL or PostgreSQL.
+   - An H2 in-memory database is used for development and testing purposes. For production, consider using a more scalable and persistent database such as PostgreSQL.
 
 ### Known Issues
 
@@ -118,17 +84,3 @@ The application follows the MVC (Model-View-Controller) architectural pattern, w
 
 3. **User Interface:**
    - The UI is basic and may require further improvements to enhance user experience and responsiveness.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit them (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
